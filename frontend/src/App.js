@@ -1,11 +1,11 @@
 import './App.css';
-import SignInSide from './src/components/SignInSide.js';
+import Login from './components/Login'
 
 
 function App() {
   return (
     <div className="App">
-      <SignInSide />
+      <Login />
     </div>
   );
 }
