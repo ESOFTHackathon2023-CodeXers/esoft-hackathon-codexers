@@ -1,18 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import './styles/main.css'
+import App from './App';
 
-import SignIn from "./components/SignIn";
-import "./styles.css";
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
 
-const routes = (
-  <BrowserRouter>
-    <Routes>
-      <Route exact path="/" element={SignIn} />
-    </Routes>
-
-  </BrowserRouter>
+root.render(
+  <App />
 );
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(routes, rootElement);
