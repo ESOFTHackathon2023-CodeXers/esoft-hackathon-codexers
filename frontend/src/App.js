@@ -1,10 +1,11 @@
 import './App.css';
+import Login from './components/Login'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi, CodeXers!!!!</h1>
-      <p>Hi guys</p>
+      <Login />
     </div>
   );
 }
