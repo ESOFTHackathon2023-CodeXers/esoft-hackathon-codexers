@@ -662,14 +662,14 @@ select {
 .hidden {
   display: none;
 }
-.h-12 {
-  height: 3rem;
-}
 .h-4 {
   height: 1rem;
 }
 .h-5 {
   height: 1.25rem;
+}
+.h-\[100px\] {
+  height: 100px;
 }
 .h-full {
   height: 100%;
@@ -783,6 +783,10 @@ select {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .font-bold {
   font-weight: 700;

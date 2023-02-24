@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'loginpage': "url('/images/bgimage.jpg')",
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
